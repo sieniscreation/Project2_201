@@ -1,105 +1,74 @@
-# WebSlides = Create stories with Karma
+# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
-[![Release](https://img.shields.io/github/release/webslides/webslides.svg)](https://github.com/webslides/webslides/releases/latest)
-[![codecov](https://codecov.io/gh/webslides/WebSlides/branch/master/graph/badge.svg)](https://codecov.io/gh/webslides/WebSlides)
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jlantunez/8)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/webslides/webslides.svg?style=social)](https://twitter.com/webslides)
+[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
 
-Finally, everything you need to make HTML presentations, landings, and longforms in a beautiful way. Just a basic knowledge of HTML and CSS is required. Designers, marketers, and journalists can now focus on the content. — [https://webslides.tv/demos](https://webslides.tv/demos).
+## Preview
 
-* * *
-### Download
-Simply choose a demo and customize it in seconds. Latest version: [webslides.tv/webslides-latest.zip](https://webslides.tv/webslides-latest.zip).
-* * *
+[![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](https://blackrockdigital.github.io/startbootstrap-agency/)
 
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
 
-### What's in the download?
+## Status
 
-The download includes demos and images (devices and logos). 
-All content is for demo purposes only. Images are property of their respective owners.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
 
-```
-webslides/
-├── index.html
-├── css/
-│   ├── base.css
-│   └── colors.css
-│   └── svg-icons.css (optional)
-├── js/
-│   ├── webslides.js
-│   └── svg-icons.js (optional)
-└── demos/
-└── images/
-```
+## Download and Installation
 
-## Features
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
+* Install via npm: `npm i startbootstrap-agency`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
 
-- Navigation (horizontal and vertical sliding): remote presenters, touchpad, keyboard shortcuts, and swipe.
-- Slide counter.
-- Permalinks: go to a specific slide.
-- Autoslide.
-- Click to nav.
-- Simple CSS alignments. Put content wherever you want (vertical centering...)
-- 40+ components: background images/videos, quotes, cards, covers...
-- Flexible blocks with auto-fill and equal height.
-- Fonts: Roboto, Maitree (Serif), and San Francisco.
-- Vertical rhythm (use multiples of 8).
+## Usage
 
-## Markup
+### Basic Usage
 
-- Code is clean and scalable. It uses intuitive markup with popular naming conventions. There's no need to overuse classes or nesting.
-- Each parent `<section>` in the `#webslides` element is an individual slide.
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-```html
-<article id="webslides">
-    <section>
-        <h1>Slide 1</h1>
-    </section>
-    <section class="bg-black aligncenter">
-    <!-- .wrap = container 1200px -->
-        <div class="wrap">
-            <h1>Slide 2</h1>
-        </div>
-    </section>
-</article>
-```
+### Advanced Usage
 
-### Vertical Sliding
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-```html
-<article id="webslides" class="vertical">
-```
+#### Gulp Tasks
 
-### CSS Syntax (classes)
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+- `gulp js` minifies the themes JS file
+- `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-- Typography: `.text-landing`, `.text-data`, `.text-intro`...
-- Background Colors: `.bg-primary`, `.bg-apple`, `.bg-blue`...
-- Background Images: `.background`,`.background-center-bottom`...
-- Cards: `.card-50`, `.card-40`...
-- Flexible Blocks: `.flexblock.clients`, `.flexblock.metrics`...
+You must have npm and Gulp installed globally on your machine in order to use these features.
 
-### Extensions
+## Troubleshooting and Help
 
-You can add:
+Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
 
-- [Unsplash](https://unsplash.com) photos
-- [animate.css](https://daneden.github.io/animate.css)
-- [particles.js](https://github.com/VincentGarreau/particles.js)
-- [Animate on scroll](http://michalsnik.github.io/aos/) (Useful for longform articles)
-- [pt](http://williamngan.github.io/pt/)
+**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
 
-### Dive In!
+## Bugs and Issues
 
-- Do not miss [our demos](https://webslides.tv/). 
-- Want to get techie? Read [our wiki](wiki):
-  - [FAQ](https://github.com/webslides/WebSlides/wiki)
-  - [Core API](https://github.com/webslides/WebSlides/wiki/Core-API)
-  - [Plugin Docs](https://github.com/webslides/WebSlides/wiki/Plugin-docs)
-  - [Plugin Development](https://github.com/webslides/WebSlides/wiki/Plugin-development)
- 
-### Credits
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
 
-- WebSlides was created by [@jlantunez](https://twitter.com/jlantunez) using [Cactus](https://github.com/eudicots/Cactus).
-- Javascript: [@Belelros](https://twitter.com/Belelros) and [@LuisSacristan](https://twitter.com/luissacristan).
-- Based on [SimpleSlides](https://github.com/jennschiffer/SimpleSlides), by [@JennSchiffer](https://twitter.com/jennschiffer).
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
